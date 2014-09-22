@@ -1,0 +1,51 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* Table sort psuedo-element pointers */
+th.sorted-up::after {
+  content:"";
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+  margin-left: 5px;
+  display:inline-block;
+}
+
+th.sorted-down::after {
+  content:"";
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  margin-left: 5px;
+  display:inline-block;
+}
+
+button.close {
+  outline: none;
+}
+
+table.sortable th {
+  cursor: pointer;
+}
+
+#quests td:not(:first-of-type), #quests th:not(:first-of-type) {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+#quests td small:not(:last-of-type)::after {
+  content:", "
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+a.q1 {
+  color: #333333 !important;
+}
+

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Aaron Friesen - Portfolio</title>
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <!-- Main styles for site -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-target=".navbar-collapse"
+        data-toggle="collapse" type="button"><span class="icon-bar"></span>
+        <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+        <a class="navbar-brand" href="index.html">Aaron Friesen</a>
+      </div>
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+
+          <li class="dropdown">
+            <li class = "active">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work<b class="caret"></b></a>
+
+            <ul class="dropdown-menu">
+              <li><a href="neurorush.html">NeuroRush</a></li>
+              <li><a href="ta.html">Undergraduate Teaching Assistant</a></li>
+              <li class = "active"><a href="spacetrader.html">Space Trader</a></li>
+              <li><a href="esp.html">Entertainment Software Producers</a></li>
+            </ul>
+            </li>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<b class="caret"></b></a>
+
+            <ul class="dropdown-menu">
+              <li><a href="https://www.linkedin.com/pub/aaron-friesen/6a/152/550/">LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/fr0stbyte">Facebook</a></li>
+              <li><a href="mailto:afriesen6@gatech.edu">Email</a></li>
+              <li><a href="AaronFriesenResume.pdf">Resume</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>My Work</h1>
+    <hr>
+
+    <h2>Space Trader</h3>
+
+    <p>
+    Fall 2012, I worked on a team with Alexander Ikonomidis, Randal Brown, and Ashu Gupta on a game called Space Trader for CS2340. We made the entire game from the ground up, working as a team for 4 months. We actually did such a good job and went so overboard with additional features, we currently hold the class record of <b>236%</b> on the final project.
+    <center>
+    <!--
+    <ul class="list-inline badge" style="background-color:black; font-size:20px">
+        <li style="color:#cc2222">Hated</li>
+        <li style="color:red">Hostile</li>
+        <li style="color:#ee6622">Unfriendly</li>
+        <li style="color:yellow">Neutral</li>
+        <li style="color:lime">Friendly</li>
+        <li style="color:#00ff88">Honored</li>
+        <li style="color:#00ffcc">Revered</li>
+        <li style="color:cyan">Exalted</li>
+    </ul>
+    -->
+      
+        <img alt="Title Screen" src="img/sttitle.png" style="margin-top:10px" >
+        <div class = "caption">
+            <p>The game's title screen.</p>
+        </div>
+    </center>
+    </p>
+
+    <p>
+    The game puts the player in the character of (you guessed it) a space trader. The goal is to fly around the galaxy, buying and selling goods between various solar systems. The player can upgrade their ship with various enhancements to allow them to do things such as hold more cargo, travel faster, and even defend against rogue pirates. There are random encounters as the player travels across the galaxy which tip them in on the state of other systems. See that a system is experiencing a drought? Fill up your cargo bay with water and fly over for huge profits!
+    </p>
+
+    <div class="thumbnail pull-right" style="margin-left:15px">
+        <img alt="..." src="img/stgalaxy.png" style="margin-left:10px">
+    </div>
+    
+    <p>
+    There are quite a few systems to travel to, each with multiple planets of different types and governments. I did the majority of the backend programming, in particular with modeling the planets, systems, and encounters. Alex worked on a lot of the GUI programming with Ashu, and Randal and I were the team designers and debuggers. Overall the project was a lot of fun and was good teamworking experience.
+    </p>
+        <center>
+            <img alt = "..." src = "img/stupgrade.png" style = "margin-top:30px" style = "margin-bottom:30px">
+            <div class = "caption">
+                <p>Upgrading the player's ship.</p>
+            </div>
+
+
+            <img alt = "..." src = "img/stpolice.png" style = "margin-top:30px" style = "margin-bottom:30px">
+            <div class = "caption">
+                <p>An encounter with the police. If the player is carrying Narcotics or Weapons, they must surrender them or fight.</p>
+            </div>
+        </center>
+
+    <p>
+    The game is written entirely in Java with no external libraries used. If you would like to take a look at the code, it's publicly available under the Google code repository <a href="https://code.google.com/p/spacetraderteam3/">here</a>.
+    </p>
+    
+
+    
+    <!--
+    <h3>Gaining and Losing Reputation:</h3>
+
+    <div class="thumbnail pull-right" style="margin-left:10px">
+      <img alt="..." data-src="holder.js/300x200" src=
+      "http://www.blogcdn.com/wow.joystiq.com/media/2008/04/md-reputation.jpg">
+
+      <div class="caption">
+        <p>An in-game display of a player's<br>
+        reputation with various factions.</p>
+      </div>
+    </div>
+    
+    <p>The following are some of the ways to gain/lose reputation</p>
+    <ul>
+      <li>Completing non-repeatable quests will increase your reputation with
+      the quest giver’s faction</li> 
+      <li>Mobs give full reputation</li> 
+      <li>Mobs and quests sometimes increase your reputation</li> 
+      <li>Most quests will give full reputation gain for that faction and
+      one quarter of that reputation gain for the other related factions</li> 
+      <li>At level 77 and above, characters can gain reputation with their faction’s races by
+      completing quests for the Argent Tournament</li>
+      <li>There is no way to increase your reputation with factions fo the opposite team (Horde vs Alliance).</li>
+      <li>It is possible to lose reputation points with some factions by killing members
+      of the faction or by assisting rival factions.</li> 
+      <li>For rival factions, gaining reputation with one will normally decrease reputation with the other but at
+      a greater rate</li>
+    </ul>
+    
+    <h3>Rewards and Benefits:</h3>
+    <p>Having a high reputation with a faction allows access to various rewards:</p>
+    <ul>
+      <li>Gaining reputation with your home faction provides access to discounted prices at vendors</li> 
+      <li>Gaining reputation with other factions may provide additional benefits, such as specific
+      items, patterns, or spells that can be purchased from vendors</li> 
+      <li>If you want a mount of a faction that is not your own, you must be Exalted with that
+      factions</li> 
+    </ul>
+
+    <h3>Managing Reputation:</h3>
+
+    <p>There are several ways you can view your standing with a particular
+    faction both in game and out of game. <br> Note: There is no way to view your 
+    reptation with factions of the other side (Horde vs Alliance).</p> 
+
+    <h4>In Game</h4>
+
+    <p>You can check your reputation with all factions by pressing the “u”
+    hotkey or by going to the Character window (“c” hotkey) and clicking on the
+    Reputation tab along the bottom.</p>
+    
+    <h4>Out of Game</h4>
+    
+    <p>Reputation for all cities can also be checked on the Battle.net
+    <a href="http://us.battle.net/wow/en/community/">Armoury</a> for characters
+    that have reached level 10. For you convenience you can check your reputation
+    with select factions from the <a href="character.html">Character Info</a> page on this site.
+    </p>
+    -->
+    <hr>
+
+    <footer>
+      <p>Created by Aaron Friesen using Twitter Bootstrap API | All Rights Reserved</p>
+      <p>Last updated January 2014</p>
+
+    </footer>
+  </div><!-- /container -->
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script> 
+  <!-- Uncommment on delpoy <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+  <script type="text/javascript" src="http://static.wowhead.com/widgets/power.js"></script>
+</body>
+</html>
