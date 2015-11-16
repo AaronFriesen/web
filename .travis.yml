@@ -7,3 +7,4 @@ deploy:
   bucket: aaron-friesen.com
   on:
     repo: AaronFriesen/web
+  region: us-west-2
