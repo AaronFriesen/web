@@ -14,49 +14,9 @@
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button class="navbar-toggle" data-target=".navbar-collapse"
-        data-toggle="collapse" type="button"><span class="icon-bar"></span>
-        <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-        <a class="navbar-brand" href="index.html">Aaron Friesen</a>
-      </div>
-
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li class = "active"><a href="about.html">About</a></li>
-          <li><a href="AaronFriesenResume.pdf">Resume</a></li>
-
-            <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work<b class="caret"></b></a>
-
-            <ul class="dropdown-menu">
-              <li><a href="neurorush.html">NeuroRush</a></li>
-              <li><a href="ta.html">Undergraduate Teaching Assistant</a></li>
-              <li><a href="spacetrader.html">Space Trader</a></li>
-              <li><a href="esp.html">Entertainment Software Producers</a></li>
-              <li><a href="yelp.html">Yelp</a></li>
-            </ul>
-          </li>
-
-
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<b class="caret"></b></a>
-
-            <ul class="dropdown-menu">
-              <li><a href="https://www.linkedin.com/pub/aaron-friesen/6a/152/550/">LinkedIn</a></li>
-              <li><a href="https://www.facebook.com/fr0stbyte">Facebook</a></li>
-              <li><a href="mailto:afriesen6@gatech.edu">Email</a></li>
-              <li><a href="AaronFriesenResume.pdf">Resume</a></li>
-            </ul>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="header.js"></script>
+  <script>$('#header-about').addClass('active')</script>
 
   <div class="container">
     <h1>About</h1>
@@ -72,18 +32,11 @@
     While I was at Georgia Tech, I did a number of things, including (but not limited to): Head Teaching Assistant of CS1331, Treasurer of campus gaming club ESP, CEO of startup WaveFocus LLC, SDE Intern at Yelp, Inc., and was a member of various clubs and orgs. All things considered, those were some pretty hectic times. Life has since slowed down considerably, as it tends to do when you start working full-time. These days I'm fiddling with various web dev technologies and playing video games.
     </p>
 
-    <hr>
-
-    <footer>
-      <p>Created by Aaron Friesen using Twitter Bootstrap</p>
-      <p>Last updated November 2015</p>
-
-    </footer>
   </div><!-- /container -->
+  <script type="text/javascript" src="footer.js"></script>
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <!-- Uncommment on delpoy <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
 </body>

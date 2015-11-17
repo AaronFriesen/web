@@ -14,45 +14,10 @@
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Aaron Friesen</a>
-      </div>
-
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="AaronFriesenResume.pdf">Resume</a></li>
-
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work<b class="caret"></b></a>
-
-            <ul class="dropdown-menu">
-              <li><a href="neurorush.html">NeuroRush</a></li>
-              <li><a href="ta.html">Undergraduate Teaching Assistant</a></li>
-              <li><a href="spacetrader.html">Space Trader</a></li>
-              <li><a href="esp.html">Entertainment Software Producers</a></li>
-              <li><a href="yelp.html">Yelp</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<b class="caret"></b></a>
-
-            <ul class="dropdown-menu">
-              <li><a href="https://www.linkedin.com/pub/aaron-friesen/6a/152/550/">LinkedIn</a></li>
-              <li><a href="https://www.facebook.com/fr0stbyte">Facebook</a></li>
-              <li><a href="mailto:aaron@aaron-friesen.com">Email</a></li>
-              <li><a href="AaronFriesenResume.pdf">Resume</a></li>
-            </ul>
-          </li>
-
-        </ul>
-      </div><!--/.navbar-collapse -->
-    </div>
-  </div>
+  <script src="js/jquery.js"></script>
+  <!-- Include header -->
+  <script type="text/javascript" src="header.js"></script>
+  <script>$('#header-home').addClass('active')</script>
 
   <div class="jumbotron">
     <div class="container">
@@ -62,20 +27,11 @@
       <p>Computers have always been my passion, and I'm currently a full-time Software Development Engineer for Amazon Web Services. Take a look around and see what I've been working on!</p>
     </div>
   </div>
+  <script type="text/javascript" src="footer.js"></script>
 
-  <div class="container">
-    <hr>
-
-    <footer>
-      <p>Created by Aaron Friesen using Twitter Bootstrap</p>
-      <p>Last updated November 2015</p>
-
-    </footer>
-  </div><!-- /container -->
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <!-- Uncommment on deploy <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
 </body>

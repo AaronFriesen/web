@@ -10,60 +10,12 @@
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <!-- Main styles for site -->
   <link href="css/main.css" rel="stylesheet">
-
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button class="navbar-toggle" data-target=".navbar-collapse"
-        data-toggle="collapse" type="button"><span class="icon-bar"></span>
-        <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-        <a class="navbar-brand" href="index.html">Aaron Friesen</a>
-      </div>
-
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="AaronFriesenResume.pdf">Resume</a></li>
-
-            <li class="dropdown">
-            <li class = "active">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work<b class="caret"></b></a>
-
-            <ul class="dropdown-menu">
-              <li class = "active"><a href="neurorush.html">NeuroRush</a></li>
-              <li><a href="ta.html">Undergraduate Teaching Assistant</a></li>
-              <li><a href="spacetrader.html">Space Trader</a></li>
-              <li><a href="esp.html">Entertainment Software Producers</a></li>
-              <li><a href="yelp.html">Yelp</a></li>
-            </ul>
-            </li>
-          </li>
-
-
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<b class="caret"></b></a>
-
-            <ul class="dropdown-menu">
-              <li><a href="https://www.linkedin.com/pub/aaron-friesen/6a/152/550/">LinkedIn</a></li>
-              <li><a href="https://www.facebook.com/fr0stbyte">Facebook</a></li>
-              <li><a href="mailto:afriesen6@gatech.edu">Email</a></li>
-              <li><a href="AaronFriesenResume.pdf">Resume</a></li>
-            </ul>
-          </li>
-
-        </ul>
-      </div><!--/.navbar-collapse -->
-    </div>
-  </div>
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="header.js"></script>
+  <script>$('#header-dropdown').addClass('active');$('#header-neurorush').addClass('active')</script>
 
   <div class="container">
     <h1>My Work</h1>
@@ -121,21 +73,14 @@
     <p style = "margin-top:30px">
     We developed the game using Unity3D and Blender, used Visual Studio for coding, and mainly TortoiseSVN for source control. In retrospect, had I known of its beauty, we probably would have been using git instead. We demo'd NeuroRush in Austin, Texas at the <a href="http://www.isnr.org">ISNR Conference</a> in 2013. People were very excited and it should be hitting the market sometime soon!
     </p>
-
-    <hr>
-
-    <footer>
-      <p>Created by Aaron Friesen using Twitter Bootstrap API | All Rights Reserved</p>
-      <p>Last updated September 2014</p>
-
-    </footer>
   </div><!-- /container -->
+
+  <script type="text/javascript" src="footer.js"></script>
+
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="js/jquery.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <!-- Uncommment on delpoy <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-  <script type="text/javascript" src="http://static.wowhead.com/widgets/power.js"></script>
 </body>
 </html>
