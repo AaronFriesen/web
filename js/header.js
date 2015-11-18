@@ -17,6 +17,7 @@ document.write(
 "              <li id='header-space-trader'><a href='spacetrader.html'>Space Trader</a></li>" +
 "              <li id='header-esp'><a href='esp.html'>Entertainment Software Producers</a></li>" +
 "              <li id='header-yelp'><a href='yelp.html'>Yelp</a></li>" +
+"              <li id='header-aws'><a href='aws.html'>Amazon Web Services</a></li>" +
 "            </ul>" +
 "          </li>" +
 "          <li class='dropdown'>" +
@@ -25,6 +26,7 @@ document.write(
 "              <li><a href='https://www.linkedin.com/pub/aaron-friesen/6a/152/550/'>LinkedIn</a></li>" +
 "              <li><a href='https://www.facebook.com/fr0stbyte'>Facebook</a></li>" +
 "              <li><a href='mailto:aaron@aaron-friesen.com'>Email</a></li>" +
+"              <li><a href='https://www.github.com/AaronFriesen'>GitHub</a></li>" +
 "            </ul>" +
 "          </li>" +
 "        </ul>" +
