@@ -1,4 +1,4 @@
-web ![build status](https://travis-ci.org/AaronFriesen/web.svg?branch=master)
+web
 ===
 
-My personal website. Now via travis-ci magic it also auto-deploys to S3. Neat!
+My personal website. TODO: make code auto-deploy again to EC2.
