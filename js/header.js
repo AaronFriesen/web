@@ -2,22 +2,22 @@ document.write(
 "<div class='navbar navbar-inverse navbar-fixed-top'>" +
 "    <div class='container'>" +
 "      <div class='navbar-header'>" +
-"        <a class='navbar-brand' href='index.html'>Aaron Friesen</a>" +
+"        <a class='navbar-brand' href='http://aaron-friesen.com'>Aaron Friesen</a>" +
 "      </div>" +
 "      <div class='navbar-collapse collapse'>" +
 "        <ul class='nav navbar-nav'>" +
-"          <li id='header-home'><a href='index.html'>Home</a></li>" +
-"          <li id='header-about'><a href='about.html'>About</a></li>" +
-"          <li id='header-resume'><a href='AaronFriesenResume.pdf'>Resume</a></li>" +
+"          <li id='header-home'><a href='http://aaron-friesen.com'>Home</a></li>" +
+"          <li id='header-about'><a href='about'>About</a></li>" +
+"          <li id='header-resume'><a href='http://aaron-friesen.com/AaronFriesenResume.pdf'>Resume</a></li>" +
 "          <li id='header-dropdown' class='dropdown'>" +
 "            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Work<b class='caret'></b></a>" +
 "            <ul class='dropdown-menu'>" +
-"              <li id='header-neurorush'><a href='neurorush.html'>NeuroRush</a></li>" +
-"              <li id='header-ta'><a href='ta.html'>Undergraduate Teaching Assistant</a></li>" +
-"              <li id='header-space-trader'><a href='spacetrader.html'>Space Trader</a></li>" +
-"              <li id='header-esp'><a href='esp.html'>Entertainment Software Producers</a></li>" +
-"              <li id='header-yelp'><a href='yelp.html'>Yelp</a></li>" +
-"              <li id='header-aws'><a href='aws.html'>Amazon Web Services</a></li>" +
+"              <li id='header-neurorush'><a href='http://aaron-friesen.com/neurorush'>NeuroRush</a></li>" +
+"              <li id='header-ta'><a href='http://aaron-friesen.com/ta'>Undergraduate Teaching Assistant</a></li>" +
+"              <li id='header-space-trader'><a href='http://aaron-friesen.com/spacetrader'>Space Trader</a></li>" +
+"              <li id='header-esp'><a href='http://aaron-friesen.com/esp'>Entertainment Software Producers</a></li>" +
+"              <li id='header-yelp'><a href='http://aaron-friesen.com/yelp'>Yelp</a></li>" +
+"              <li id='header-aws'><a href='http://aaron-friesen.com/aws'>Amazon Web Services</a></li>" +
 "            </ul>" +
 "          </li>" +
 "          <li class='dropdown'>" +
