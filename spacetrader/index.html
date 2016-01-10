@@ -1,72 +1,77 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Aaron Friesen - Portfolio</title>
-  <!-- Bootstrap core CSS -->
-  <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-  <!-- Main styles for site -->
-  <link href="../css/main.css" rel="stylesheet">
-</head>
+    <title>Aaron Friesen - Portfolio</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Main styles for site -->
+    <link href="../css/main.css" rel="stylesheet">
+  </head>
 
-<body>
-  <script src="../js/jquery.js"></script>
-  <script type="text/javascript" src="../js/header.js"></script>
-  <script>$('#header-dropdown').addClass('active');$('#header-space-trader').addClass('active')</script>
+  <body>
+    <!-- Include Header -->
+    <script src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/header.js"></script>
+    <script>$('#header-dropdown').addClass('active');$('#header-space-trader').addClass('active')</script>
 
-  <div class="container">
-    <h1>My Work</h1>
-    <hr>
+    <div class="container">
+      <h1>My Work</h1>
+      <hr>
 
-    <h2>Space Trader</h3>
+      <h2>Space Trader</h3>
+      <p>Fall 2012, I worked on a team with Alexander Ikonomidis, Randal Brown, and Ashu Gupta on a
+      game called Space Trader for CS2340. We made the entire game from the ground up, working as a
+      team for 4 months. We actually did such a good job and went so overboard with additional
+      features, we currently hold the class record of <b>236%</b> on the final project.</p>
 
-    <p>
-    Fall 2012, I worked on a team with Alexander Ikonomidis, Randal Brown, and Ashu Gupta on a game called Space Trader for CS2340. We made the entire game from the ground up, working as a team for 4 months. We actually did such a good job and went so overboard with additional features, we currently hold the class record of <b>236%</b> on the final project.
-    <center>
+      <center>
         <img alt="Title Screen" src="../img/sttitle.png" style="margin-top:10px" >
-        <div class = "caption">
-            <p>The game's title screen.</p>
+        <div class="caption">
+          <p>The game's title screen.</p>
         </div>
-    </center>
-    </p>
+      </center>
 
-    <p>
-    The game puts the player in the character of (you guessed it) a space trader. The goal is to fly around the galaxy, buying and selling goods between various solar systems. The player can upgrade their ship with various enhancements to allow them to do things such as hold more cargo, travel faster, and even defend against rogue pirates. There are random encounters as the player travels across the galaxy which tip them in on the state of other systems. See that a system is experiencing a drought? Fill up your cargo bay with water and fly over for huge profits!
-    </p>
+      <p>The game puts the player in the character of (you guessed it) a space trader. The goal is to
+      fly around the galaxy, buying and selling goods between various solar systems. The player can
+      upgrade their ship with various enhancements to allow them to do things such as hold more cargo
+      travel faster, and even defend against rogue pirates. There are random encounters as the player
+      travels across the galaxy which tip them in on the state of other systems. See that a system is
+      experiencing a drought? Fill up your cargo bay with water and fly over for huge profits!</p>
 
-    <div class="thumbnail pull-right" style="margin-left:15px">
+      <div class="thumbnail pull-right" style="margin-left:15px">
         <img alt="..." src="../img/stgalaxy.png" style="margin-left:10px">
+      </div>
+
+      <p>There are quite a few systems to travel to, each with multiple planets of different types
+      and governments. I did the majority of the backend programming, in particular with modeling the
+      planets, systems, and encounters. Alex worked on a lot of the GUI programming with Ashu, and
+      Randal and I were the team designers and debuggers. Overall the project was a lot of fun and
+      was good teamworking experience.</p>
+
+      <center>
+        <img alt="..." src="../img/stupgrade.png" style="margin-top:30px" style="margin-bottom:30px">
+        <div class="caption">
+          <p>Upgrading the player's ship.</p>
+        </div>
+
+        <img alt="..." src="../img/stpolice.png" style="margin-top:30px" style="margin-bottom:30px">
+        <div class="caption">
+          <p>An encounter with the police. If the player is carrying Narcotics or Weapons, they must surrender them or fight.</p>
+        </div>
+      </center>
+
+      <p>The game is written entirely in Java with no external libraries used. If you would like to
+      take a look at the code, it's publicly available under the Google code repository
+      <a href="https://code.google.com/p/spacetraderteam3/">here</a>.</p>
     </div>
 
-    <p>
-    There are quite a few systems to travel to, each with multiple planets of different types and governments. I did the majority of the backend programming, in particular with modeling the planets, systems, and encounters. Alex worked on a lot of the GUI programming with Ashu, and Randal and I were the team designers and debuggers. Overall the project was a lot of fun and was good teamworking experience.
-    </p>
-        <center>
-            <img alt = "..." src = ../"img/stupgrade.png" style = "margin-top:30px" style = "margin-bottom:30px">
-            <div class = "caption">
-                <p>Upgrading the player's ship.</p>
-            </div>
 
-
-            <img alt = "..." src = ../"img/stpolice.png" style = "margin-top:30px" style = "margin-bottom:30px">
-            <div class = "caption">
-                <p>An encounter with the police. If the player is carrying Narcotics or Weapons, they must surrender them or fight.</p>
-            </div>
-        </center>
-
-    <p>
-    The game is written entirely in Java with no external libraries used. If you would like to take a look at the code, it's publicly available under the Google code repository <a href="https://code.google.com/p/spacetraderteam3/">here</a>.
-    </p>
-  </div><!-- /container -->
-
-  <script type="text/javascript" src="../js/footer.js"></script>
-
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="../bootstrap/js/bootstrap.min.js"></script>
-</body>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/footer.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
