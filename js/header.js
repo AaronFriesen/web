@@ -2,22 +2,22 @@ document.write(
 "<div class='navbar navbar-inverse navbar-fixed-top'>" +
 "    <div class='container'>" +
 "      <div class='navbar-header'>" +
-"        <a class='navbar-brand' href='http://aaron-friesen.com'>Aaron Friesen</a>" +
+"        <a class='navbar-brand' href='https://aaron-friesen.com'>Aaron Friesen</a>" +
 "      </div>" +
 "      <div class='navbar-collapse collapse'>" +
 "        <ul class='nav navbar-nav'>" +
-"          <li id='header-home'><a href='http://aaron-friesen.com'>Home</a></li>" +
-"          <li id='header-about'><a href='http://aaron-friesen.com/about'>About</a></li>" +
-"          <li id='header-resume'><a href='http://aaron-friesen.com/AaronFriesenResume.pdf'>Resume</a></li>" +
+"          <li id='header-home'><a href='https://aaron-friesen.com'>Home</a></li>" +
+"          <li id='header-about'><a href='https://aaron-friesen.com/about'>About</a></li>" +
+"          <li id='header-resume'><a href='https://aaron-friesen.com/resources/AaronFriesenResume.pdf'>Resume</a></li>" +
 "          <li id='header-dropdown' class='dropdown'>" +
 "            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>Work<b class='caret'></b></a>" +
 "            <ul class='dropdown-menu'>" +
-"              <li id='header-aws'><a href='http://aaron-friesen.com/aws'>Amazon Web Services</a></li>" +
-"              <li id='header-yelp'><a href='http://aaron-friesen.com/yelp'>Yelp</a></li>" +
-"              <li id='header-ta'><a href='http://aaron-friesen.com/ta'>Undergraduate Teaching Assistant</a></li>" +
-"              <li id='header-neurorush'><a href='http://aaron-friesen.com/neurorush'>NeuroRush</a></li>" +
-"              <li id='header-esp'><a href='http://aaron-friesen.com/esp'>Entertainment Software Producers</a></li>" +
-"              <li id='header-space-trader'><a href='http://aaron-friesen.com/spacetrader'>Space Trader</a></li>" +
+"              <li id='header-aws'><a href='https://aaron-friesen.com/aws'>Amazon Web Services</a></li>" +
+"              <li id='header-yelp'><a href='https://aaron-friesen.com/yelp'>Yelp</a></li>" +
+"              <li id='header-ta'><a href='https://aaron-friesen.com/ta'>Undergraduate Teaching Assistant</a></li>" +
+"              <li id='header-neurorush'><a href='https://aaron-friesen.com/neurorush'>NeuroRush</a></li>" +
+"              <li id='header-esp'><a href='https://aaron-friesen.com/esp'>Entertainment Software Producers</a></li>" +
+"              <li id='header-space-trader'><a href='https://aaron-friesen.com/spacetrader'>Space Trader</a></li>" +
 "            </ul>" +
 "          </li>" +
 "          <li class='dropdown'>" +
