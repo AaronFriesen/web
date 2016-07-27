@@ -4408,6 +4408,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #e7e7e7;
 }
 
+.navbar-header .navbar-nav > .active > a,
+.navbar-header .navbar-nav > .active > a:hover,
+.navbar-header .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: #e7e7e7;
+}
+
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {

@@ -2,11 +2,10 @@ document.write(
 "<div class='navbar navbar-inverse navbar-fixed-top'>" +
 "    <div class='container'>" +
 "      <div class='navbar-header'>" +
-"        <a class='navbar-brand' href='https://aaron-friesen.com'>Aaron Friesen</a>" +
+"        <a id='header-home' class='navbar-brand' href='https://aaron-friesen.com'>Aaron Friesen</a>" +
 "      </div>" +
 "      <div class='navbar-collapse collapse'>" +
 "        <ul class='nav navbar-nav'>" +
-"          <li id='header-home'><a href='https://aaron-friesen.com'>Home</a></li>" +
 "          <li id='header-about'><a href='https://aaron-friesen.com/about'>About</a></li>" +
 "          <li id='header-resume'><a href='https://aaron-friesen.com/resources/AaronFriesenResume.pdf'>Resume</a></li>" +
 "          <li id='header-dropdown' class='dropdown'>" +
