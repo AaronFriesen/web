@@ -1,5 +1,7 @@
 #!/bin/sh
 
-sudo cp config/ssl.conf /etc/httpd/conf.d/ssl.conf
-sudo service httpd stop
-sudo httpd -f `echo $PWD`/config/httpd.conf -k start
+sudo cp config/nginx.conf /etc/nginx/nginx.conf
+sudo service nginx reload
+screen -X -S srvr quit
+cargo build --release
+screen -dmS srvr cargo run --release

@@ -1,0 +1,8 @@
+[package]
+name = "rocket-test"
+version = "0.1.0"
+authors = ["afriesen6 <afriesen6@gatech.edu>"]
+
+[dependencies]
+rocket = "0.2.8"
+rocket_codegen = "0.2.8"
